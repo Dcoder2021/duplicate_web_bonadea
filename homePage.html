@@ -22,6 +22,9 @@
 <!------------------------Body--------------------------->
 
 <body>
+
+<!------------------------Navigation bar----------------->
+
     <div class="fullPage">
         <div class="logo text-center">
             <a href="">
@@ -31,16 +34,72 @@
 
         <div class="navi text-center">
             <nav class="mainnavi">
-                <ul>
-                    <a href=""><li>Weddings & Functions</li></a>
-                    <a href=""><li>Accommodation</li></a>
-                    <a href=""><li>Events</li></a>
-                    <a href=""><li>Conferencing</li></a>
-                    <a href=""><li>About Us</li></a>
-                    <a href=""><li>Contact Us</li></a>
-                </ul>
+
+                <div class="hamburger" onclick="toggleMenu()">
+                    &#9776; <!-- Hamburger icon -->
+                </div>
+
+                <div class="overlay">
+                    <div class="close-btn" onclick="toggleMenu()">&times;</div>
+
+                    <ul class="nav-links">
+                        <li>
+                            <a href="#">Weddings & Functions</a>
+                            <ul class="submenu">
+                                <li><a href="#">Veneu</a></li>
+                                <li><a href="#">Garden Treed Terrace</a></li>
+                                <li><a href="#">Chapel</a></li>
+                                <li><a href="#">Bar and Cigar Lounge</a></li>
+                                <li><a href="#">Lounges</a></li>
+                                <li><a href="#">Ballroom</a></li>
+                                <li><a href="#">Dessert Room</a></li>
+                                <li><a href="#">Gardens and Views</a></li>
+                                <li><a href="#">What we offer</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Accommodation</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Conferencing</a></li>
+                        <li><a href="#">About Us</a>
+                            <ul class="submenu">
+                                <li><a href="#">Meet our team</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>    
             </nav>
         </div>
+
+<!-------------------------Slideshow 1--------------------->
+
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="images/wedding_long img1.PNG" alt="Image 1"></div>
+        <div class="swiper-slide"><img src="images/wedding_long img2.PNG" alt="Image 2"></div>
+        <div class="swiper-slide"><img src="images/wedding_long img3.PNG" alt="Image 3"></div>
+        <div class="swiper-slide"><img src="images/wedding_long img4.PNG" alt="Image 4"></div>
+        <div class="swiper-slide"><img src="images/wedding_long img5.PNG" alt="Image 5"></div>
+        <div class="swiper-slide"><img src="images/wedding_long img6.PNG" alt="Image 6"></div>
+        <div class="swiper-slide"><img src="images/wedding_long img7.PNG" alt="Image 7"></div>
+        <div class="swiper-slide"><img src="images/wedding_long img8.PNG" alt="Image 8"></div>
+        <div class="swiper-slide"><img src="images/wedding_long img9.PNG" alt="Image 9"></div>
+        <div class="swiper-slide"><img src="images/wedding_long img10.PNG" alt="Image 10"></div>
+        <div class="swiper-slide"><img src="images/wedding_long img11.PNG" alt="Image 11"></div>
+        </div>
+        
+        <div class="swiper-pagination"></div>
+    </div>
         
     </div>
+
+
 </body>
+
+ <!--------------Swiper JS--------------------->
+ <script src="javascript/swiper-bundle.min.js"></script>
+
+ <!--------------eventJS----------------------->
+ <script src="javascript/eventJavascript.js"></script>
+
+</html>
