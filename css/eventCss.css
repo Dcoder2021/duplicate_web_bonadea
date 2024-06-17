@@ -348,3 +348,172 @@ nav ul li:hover .submenu {
   .comment-slide.active {
     display: block; /* Display only the active slide */
   }
+
+  .comment-slide p {
+    margin: 0 0 10px;
+  }
+  
+  .comment-slide h4, .comment-slide h6 {
+    margin: 5px 0;
+  }
+
+
+  /*Book a veiw btn*/ 
+  .big-view-btn {
+    text-align: center;
+    padding: 50px 0;
+    box-sizing: border-box;
+    display: block;
+    unicode-bidi: isolate;
+    margin-top: 50px; /* Add margin between the comment section and the button */
+  }
+  
+  .big-btn {
+    font-family: 'Century Gothic';
+    color: #fff;
+    font-size: 20px;
+    line-height: 20px;
+    background-color: #000000;
+    display: inline-block;
+    border-radius: 100px;
+    text-transform: uppercase;
+    margin: 0 10px;
+    padding: 17px 50px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  /*footer*/
+  .footer-separator {
+    border-top: 5px solid #eeeeee;
+  }
+
+  .logotxt{
+    font-family: 'Century Gothic';
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+    line-height: 25px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 100px;
+    margin-inline-end: 100px;
+    unicode-bidi: isolate;
+  }
+
+  .footer-center h4{
+    font-family: 'Century Gothic';
+  }
+  
+  .footer {
+   
+  }
+  
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .footer-left {
+    margin: 0 0 30px 0;
+  }
+  
+  .footer-center {
+    text-align: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .footer-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .awards-container {
+    width: 250px;
+    height: 150px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+  }
+  
+  .partners-container {
+    width: 400px;
+    height: 150px;
+    padding-left: 40px;
+    
+  }
+
+  .social_icons {
+    margin-top: 20px;
+  }
+  
+  .soc_l {
+    margin: 0 10px;
+  }
+  
+  .soc_l img {
+    width: 24px;
+    height: 24px;
+  }
+
+  /*copyright*/
+  .copywrite {
+    color: #fff;
+    background-color: #000;
+    padding: 15px 0 17px 0;
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .copywrite .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .copywrite p {
+    margin: 0;
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 14px;
+  }
+
+
+  /* Media Query for screens with max-width of 824px */
+@media (max-width: 824px) {
+    .big-btn {
+      font-size: 16px;
+      padding: 12px 40px;
+    }
+  
+    .footer-center h1 span {
+      font-size: 20px;
+    }
+  
+    .footer-center p {
+      font-size: 14px;
+    }
+  
+    .footer-center h4 {
+      font-size: 16px;
+    }
+  
+    .social_icons img {
+      width: 20px;
+      height: 20px;
+    }
+  
+    .copywrite p {
+      font-size: 12px;
+    }
+  }
