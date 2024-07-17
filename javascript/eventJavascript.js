@@ -52,3 +52,10 @@ var swiper = new Swiper(".mySwiper", {
     setInterval(nextSlide, 3000);
   });
 
+    window.addEventListener('scroll', function() {
+        const logo = document.querySelector('.masterlogo');
+        const scrollY = window.scrollY || document.documentElement.scrollTop;
+        const scale = 1 - Math.min(scrollY / 1000, 0.5); // Adjust the divisor for zoom speed
+        logo.style.transform = `scale(${scale})`;
+    });
+

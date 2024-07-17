@@ -14,11 +14,14 @@ img{
 
 .masterlogo{
     width: 100%;
-    transition: 0.5s;
     height: auto;
     max-width: 430px;
     margin: 0px auto;
+    transition: transform 0.5s ease-out;
 }
+
+
+
 
 /*navigation bar
 
